@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @devgm0 Goutam Chandra Gharami
+- 👋 Hi, I’m @goutamdev Goutam Chandra Gharami
 - 👀 I’m interested in Full Stack Web Development and Data Science.
 - 🌱 I’m currently learning MERN Full Stack Development. Besides I have sound knowledge in Python, Data Science, Java, HTML, CSS and JS.
 - 💞️ I’m looking to collaborate on research on ML and content writing as well as Development.
