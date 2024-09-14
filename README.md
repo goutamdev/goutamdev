@@ -1,12 +1,45 @@
-- 👋 Hi, I’m @goutamdev Goutam Chandra Gharami
-- 👀 I’m interested in Full Stack Web Development and Data Science.
-- 🌱 I’m currently learning MERN Full Stack Development. Besides I have sound knowledge in Python, Data Science, Java, HTML, CSS and JS.
-- 💞️ I’m looking to collaborate on research on ML and content writing as well as Development.
-- 📫 How to reach me @devgm0, https://www.linkedin.com/in/goutamch05
-- 😄 Pronouns: He
-- ⚡ Fun fact: I like to listen music and write entertaining contents like poems, jokes etc.
+**Goutam Chandra Gharami (@goutamdev)**
 
-<!---
-devgm0/devgm0 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+**BSc in Electrical & Electronics Engineering (EEE) | BSMRSTU**
+
+I'm a passionate developer with a strong foundation in both hardware and software. My expertise lies in:
+
+- **Programming Languages:** C++, Java, JavaScript, Python, Bash
+- **Electronics:** Embedded Systems, Arduino, Raspberry Pi
+- **VLSI Design:** FPGA, Verilog, VHDL
+- **Data Science:** Python (Kaggle)
+
+**Projects**
+
+I've tackled various projects, demonstrating my proficiency in diverse areas:
+
+* **Embedded Systems and Robotics** (List specific projects here)
+* **Web Development** (List specific projects here)
+* **Data Science and Machine Learning** (Link to Kaggle profile or list relevant projects)
+
+**Feel free to explore my repositories and see my work in action!**
+
+**Skills & Interests**
+
+* Eager learner with a strong desire to continuously improve skills
+* Proficient in learning new technologies quickly
+* Team player with excellent communication and collaboration abilities
+* Passionate about applying technology to solve real-world problems
+
+**Let's Connect!**
+
+- **Email:** dev.goutam05@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/goutamdev
+- **Kaggle:** https://www.kaggle.com/goutamch05
+
+**Contributing**
+
+I welcome contributions to my open-source projects! Feel free to fork, raise issues, or submit pull requests. Please ensure you follow the contribution guidelines outlined in the respective project's CONTRIBUTING.md file (if available).
+
+**License**
+
+This repository is licensed under the [License Name] (link to the license).
+
+**Additional Information**
+
+(Add any relevant details, hobbies, or awards here)
