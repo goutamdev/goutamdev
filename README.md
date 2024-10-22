@@ -29,7 +29,7 @@ I've tackled various projects, demonstrating my proficiency in diverse areas:
 **Let's Connect!**
 
 - **Email:** dev.goutam05@gmail.com
-- **LinkedIn:** https://www.linkedin.com/in/goutamdev
+- **LinkedIn:** https://www.linkedin.com/in/goutamdev05
 - **Kaggle:** https://www.kaggle.com/goutamch05
 
 **Contributing**
