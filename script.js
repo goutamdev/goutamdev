@@ -4,7 +4,7 @@ function sendEmail() {
     const message = document.getElementById("message").value;
 
     Email.send({
-        SecureToken: "YOUR_SMTPJS_SECURE_TOKEN", // Replace with your SMTPJS Secure Token
+        SecureToken: "ob1b19ad-c6ae-4644-b492-8f7aa408b3ee", // Replace with your SMTPJS Secure Token
         To: "dev.goutam05@gmail.com",
         From: email,
         Subject: "New Contact Form Submission from " + name,
