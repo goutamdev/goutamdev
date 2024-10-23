@@ -1,11 +1,19 @@
-document.getElementById('contactForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-    
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
+function sendEmail() {
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
 
-    const mailtoLink = `mailto:dev.goutam05@gmail.com?subject=Message from ${name}&body=${message} (from ${email})`;
-    
-    window.location.href = mailtoLink;
-});
+    Email.send({
+        SecureToken: "YOUR_SMTPJS_SECURE_TOKEN", // Replace with your SMTPJS Secure Token
+        To: "dev.goutam05@gmail.com",
+        From: email,
+        Subject: "New Contact Form Submission from " + name,
+        Body: `Name: ${name}<br>Email: ${email}<br>Message: ${message}`
+    }).then(
+        message => alert("Email sent successfully!")
+    ).catch(
+        error => alert("Failed to send email: " + error)
+    );
+
+    return false; // Prevent default form submission
+}
