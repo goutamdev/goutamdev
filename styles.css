@@ -1,122 +1,102 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
     color: #333;
+}
+a{
+    color: white;
+    text-decoration: none;
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background: #000; /* Black for smartness */
+    color: #fff;
     padding: 10px 0;
-}
-
-header h1 {
     text-align: center;
 }
 
 nav ul {
     list-style: none;
-    text-align: center;
+    padding: 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-}
-
-.hero {
-    background-color: #4CAF50;
-    padding: 50px 20px;
-    color: white;
-    text-align: center;
-}
-
-#about img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-}
-
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-#skills, #services, #contact {
-    background-color: #fff;
-    padding: 50px 20px;
-    margin: 20px 0;
-}
-
-.service-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.service-item {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border: 1px solid #ccc;
-    width: 45%;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-.service-item img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-#contactForm {
-    display: flex;
-    flex-direction: column;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-#contactForm label, #contactForm input, #contactForm textarea, #contactForm button {
-    margin-bottom: 10px;
-    padding: 10px;
-    font-size: 16px;
-}
-
-#contactForm input, #contactForm textarea {
-    border: 1px solid #ccc;
-    width: 100%;
-}
-
-#contactForm button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-.social-links {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.social-links a {
-    color: #4CAF50;
     margin: 0 10px;
-    text-decoration: none;
+}
+
+nav ul li a img {
+    vertical-align: middle;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+#hero {
+    background: #007BFF; /* Blue for confidence */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
+.hero-img {
+    background: #007BFF; /* Blue for confidence */
+    color: white;
+    padding: 20px;
+    height: 400px;
+    width:400px
+    
+}
+.service-logo{
+    padding: 20px;
+    height: 100px;
+    width: 150px;
 }
 
 footer {
-    background-color: #333;
-    color: white;
     text-align: center;
+    padding: 10px 0;
+    background: #000; /* Black for smartness */
+    color: #fff;
+}
+
+form {
+    background: white;
     padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+form button {
+    background: #dc3545; /* Red for importance */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #c82333; /* Darker red on hover */
 }
