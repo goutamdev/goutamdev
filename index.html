@@ -3,105 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Goutam Chandra Gharami | Python & JS Developer</title>
+    <title>Goutam Chandra Gharami - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Goutam Chandra Gharami</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <section id="about" class="hero">
-        <div class="container">
-            <img src="https://avatars.githubusercontent.com/u/169124961?s=400&u=544ad46abbf129c17c6dd00af2346c2ac0eae5cc&v=4" alt="Goutam Profile Image">
-            <h2>About Me</h2>
-            <p>Hello! I’m Goutam Chandra Gharami, a passionate developer with expertise in Python, JavaScript, IoT, and Automation. I have completed several courses and training in programming and development, and I'm now providing services as a Python & JS Developer.</p>
-        </div>
-    </section>
-
-    <section id="skills">
-        <div class="container">
-            <h2>Skills</h2>
+        <h1>Goutam Chandra Gharami</h1>
+        <nav>
             <ul>
-                <li>Python Development (Web, Automation, Scripting)</li>
-                <li>JavaScript (React, Node.js, ES6+)</li>
-                <li>IoT Systems & Automation</li>
-                <li>API Integration & Development</li>
-                <li>Front-End Development (HTML, CSS, JavaScript)</li>
+                <li><a href="index.html"><img src="https://img.icons8.com/ios-filled/30/ffffff/home.png" alt="Home"  style="padding:10px" />Home</a></li>
+                <li><a href="about.html"><img src="https://img.icons8.com/ios-filled/30/ffffff/user.png" alt="About" />About</a></li>
+                <li><a href="contact.html"><img src="https://img.icons8.com/?size=30&id=2817&format=png&color=ffffff" alt="Contact" style="padding:10px"/>Contact</a></li>
+                <li><a href="https://linkedin.com/in/goutamdev0"><img src="https://img.icons8.com/ios-filled/30/ffffff/linkedin.png" alt="LinkedIn" style="padding:10px" />LinkedIn</a></li>
+                <li><a href="https://twitter.com/goutamdev0"><img src="https://img.icons8.com/ios-filled/30/ffffff/twitter.png" alt="Twitter" style="padding:10px" />Twitter</a></li>
+                <li><a href="https://github.com/goutamdev0"><img src="https://img.icons8.com/ios-filled/30/ffffff/github.png" alt="GitHub" style="padding:10px" />GitHub</a></li>
             </ul>
-        </div>
-    </section>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="hero">
+            <h2>Welcome to My Portfolio</h2>
+            <p>I am a Python and JavaScript developer with expertise in programming, IoT, Automation, and development.</p>
+            <a href="contact.html" class="btn">Get in Touch</a>
+            <img src="https://images.unsplash.com/photo-1558522195-e1201b090344?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Coding" class="hero-img" />
+        </section>
 
-    <section id="services">
-        <div class="container">
+        <section id="services">
             <h2>Services</h2>
-            <div class="service-list">
-                <div class="service-item">
-                    <img src="https://images.unsplash.com/photo-1517433456452-f9633a875f6f" alt="Python Development">
-                    <h3>Python Development</h3>
-                    <p>Providing end-to-end Python development services, from web development with Django/Flask to automation scripts. Perfect for building scalable applications and back-end services.</p>
-                </div>
-                <div class="service-item">
-                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="JavaScript Development">
-                    <h3>MERN Stack Developer</h3>
-                    <p>As a full-stack MERN (MongoDB, Express, React, Node.js) developer, I can build responsive web applications that provide seamless user experiences across devices.</p>
-                </div>
-                <div class="service-item">
-                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4" alt="IoT Development">
-                    <h3>IoT and Automation</h3>
-                    <p>Designing custom IoT solutions for automation, leveraging sensors, controllers, and embedded programming for smart environments.</p>
-                </div>
-                <div class="service-item">
-                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c" alt="Machine Learning">
-                    <h3>Machine Learning & AI Engineering</h3>
-                    <p>Expert in building and deploying machine learning models using frameworks like TensorFlow, scikit-learn, and deep learning techniques for AI-powered applications.</p>
-                </div>
-                <div class="service-item">
-                    <img src="https://images.unsplash.com/photo-1547658719-da2b51169166" alt="Data Analysis">
-                    <h3>Data Analysis & Visualization</h3>
-                    <p>Offering data analysis services with Python (Pandas, Matplotlib) and visualization tools to uncover actionable insights and trends from large datasets.</p>
-                </div>
+            <div class="service">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Logo" class="service-logo">
+                <h3>Python Development</h3>
+                <p>With Python's versatility, I create applications for web development, data analysis, machine learning, and automation. Python's simplicity and extensive libraries enable rapid development and deployment, making it an ideal choice for a variety of projects.</p>
             </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <form id="contactForm" method="POST">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-
-                <button type="submit">Send Message</button>
-            </form>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/goutamdev05" target="_blank">LinkedIn</a>
-                <a href="https://twitter.com/goutamdev05" target="_blank">Twitter</a>
-                <a href="https://github.com/goutamdev" target="_blank">GitHub</a>
+            <div class="service">
+                <img src="https://nodejs.org/static/images/logo.svg" alt="Node.js Logo" class="service-logo">
+                <h3>JavaScript Development</h3>
+                <p>JavaScript is essential for modern web development. With Node.js, I build fast and scalable network applications, handle real-time data processing, and create server-side applications. JavaScript's ability to create interactive web interfaces makes it indispensable for frontend development.</p>
             </div>
-        </div>
-    </section>
+            <div class="service">
+                <img src="https://images.unsplash.com/photo-1649006708938-cf885c646df6?q=80&w=1461&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="IoT Solutions" class="service-logo">
+                <h3>IoT Solutions</h3>
+                <p>IoT (Internet of Things) enables connectivity between devices for seamless data exchange. I develop IoT applications that collect, analyze, and visualize data from connected devices, enhancing automation and operational efficiency in various industries.</p>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Goutam Chandra Gharami | Python & JavaScript Developer</p>
-        </div>
+        <p>&copy; 2024 Goutam Chandra Gharami</p>
     </footer>
 
     <script src="script.js"></script>
