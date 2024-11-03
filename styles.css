@@ -44,9 +44,9 @@ h1, h2 {
 .hero-img {
     background: #007BFF; /* Blue for confidence */
     color: white;
-    padding: 20px;
-    height: 300px;
-    width:300px
+    padding: 10px;
+    height: 200px;
+    width:200px
     
 }
 .service-logo{
