@@ -1,60 +1,88 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me - Goutam Chandra Gharami</title>
+    <title>Goutam Chandra Gharami - About</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>About Me</h1>
+        <div class="container">
+            <img src="https://img.icons8.com/ios-filled/50/ffffff/user.png" alt="Logo" />
+        <h1>Goutam Chandra Gharami</h1>
         <nav>
             <ul>
-                <li><a href="index.html"><img src="https://img.icons8.com/ios-filled/30/ffffff/home.png" alt="Home" /></a></li>
-                <li><a href="about.html"><img src="https://img.icons8.com/ios-filled/30/ffffff/user.png" alt="About" /></a></li>
-                <li><a href="contact.html"><img src="https://img.icons8.com/?size=30&id=2817&format=png&color=ffffff" alt="Contact" /></a></li>
-                <li><a href="https://linkedin.com/in/goutamdev0"><img src="https://img.icons8.com/ios-filled/30/ffffff/linkedin.png" alt="LinkedIn" /></a></li>
-                <li><a href="https://twitter.com/goutamdev0"><img src="https://img.icons8.com/ios-filled/30/ffffff/twitter.png" alt="Twitter" /></a></li>
-                <li><a href="https://github.com/goutamdev"><img src="https://img.icons8.com/ios-filled/30/ffffff/github.png" alt="GitHub" /></a></li>
+                <li><a href="index.html"><img src="https://img.icons8.com/ios-filled/30/ffffff/home.png" alt="Home"  style="padding:10px" />Home</a></li>
+                <li><a href="about.html"><img src="https://img.icons8.com/ios-filled/30/ffffff/user.png" alt="About" />About</a></li>
+                <li><a href="contact.html"><img src="https://img.icons8.com/?size=30&id=2817&format=png&color=ffffff" alt="Contact" style="padding:10px"/>Contact</a></li>
+                <li><a href="https://linkedin.com/in/goutamdev0"><img src="https://img.icons8.com/ios-filled/30/ffffff/linkedin.png" alt="LinkedIn" style="padding:10px" />LinkedIn</a></li>
+                <li><a href="https://x.com/goutamdev0"><img src="https://img.icons8.com/ios-filled/30/ffffff/twitter.png" alt="Twitter" style="padding:10px" />Twitter</a></li>
+                <li><a href="https://github.com/goutamdev"><img src="https://img.icons8.com/ios-filled/30/ffffff/github.png" alt="GitHub" style="padding:10px" />GitHub</a></li>
             </ul>
         </nav>
     </header>
+<main class="container py-5">
+    <!-- About Me Section -->
+    <section class="text-center mb-5">
+        <img src="./img/my_image.jpg" class="img-fluid rounded-circle mb-4" alt="Goutam Chandra Gharami" style="width: 150px; height: 150px; object-fit: cover;">
+        <h2>Goutam Chandra Gharami</h2>
+        <p>I am a graduate of Gopalganj Science and Technology University with a degree in Electrical & Electronics Engineering. My mission is to excel as a MERN fullstack developer while integrating machine learning into innovative solutions.</p>
+    </section>
 
-    <main>
-        <section>
-            <h2>Who I Am</h2>
-            <p>I am Goutam Chandra Gharami, a passionate developer with extensive training in programming, IoT, and automation. I enjoy creating solutions that help streamline processes and improve efficiency.</p>
-            <img src="https://avatars.githubusercontent.com/u/169124961?v=4" alt="Goutam Chandra Gharami" class="profile-img">
-        </section>
-
-        <section>
-            <h2>My Skills</h2>
-            <ul>
-                <li>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Logo" class="skill-logo">
-                    <span>Proficient in Python: I build applications ranging from simple scripts to complex web services. Python is widely used for data analysis, web development, and scripting, making it a versatile tool in my toolkit.</span>
-                </li>
-                <li>
-                    <img src="https://nodejs.org/static/images/logo.svg" alt="Node.js Logo" class="skill-logo">
-                    <span>Experienced with JavaScript and frameworks: JavaScript powers dynamic web applications and Node.js allows server-side scripting, making it vital for building scalable web solutions.</span>
-                </li>
-                <li>
-                    <!-- <img src="https://media.istockphoto.com/id/1058712430/vector/simple-icon-to-represent-the-internet-of-things-concept-gear-settings-and-network-iot.jpg?s=612x612&w=0&k=20&c=FHm6JFVDYBAx62wBOP60EQUVhepsBjzpaRARLAxvsOM=" alt="IoT Solutions" alt="IoT Logo" class="skill-logo"> -->
-                    <span>Skilled in IoT development: I connect devices for seamless data communication and automation, enhancing efficiency in various industries.</span>
-                </li>
-                <li>
-                    <!--<img src="https://via.placeholder.com/50" alt="Automation" class="skill-logo">
-                --> <span>Expertise in automation: I help automate processes using scripts and software tools, saving time and reducing human error in repetitive tasks.</span>
-                </li>
-            </ul>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Goutam Chandra Gharami</p>
-    </footer>
-
-    <script src="script.js"></script>
+    <!-- Skills Section -->
+    <section>
+        <h2 class="text-center mb-4">My Skills</h2>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <!-- Skill 1 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/python-skill.png" class="card-img-top img-fluid" alt="Python Development" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Python Development</h5>
+                        <p class="card-text">I leverage Python's simplicity and libraries to build applications, automate tasks, and perform data analysis, offering versatile solutions for varied challenges.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Skill 2 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/js.avif" class="card-img-top img-fluid" alt="JavaScript" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">JavaScript Expertise</h5>
+                        <p class="card-text">From crafting dynamic user interfaces to building server-side applications with Node.js, my JavaScript skills drive modern, responsive web solutions.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Skill 3 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/iot.avif" class="card-img-top img-fluid" alt="IoT Solutions" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">IoT Development</h5>
+                        <p class="card-text">With expertise in IoT technologies, I connect devices for seamless data exchange, enhancing automation and operational efficiency across industries.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Skill 4 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/automation.webp" class="card-img-top img-fluid" alt="Automation" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Automation Expert</h5>
+                        <p class="card-text">I design scripts and tools that streamline processes, saving time and reducing errors through intelligent automation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2024 Goutam Chandra Gharami</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </body>
 </html>

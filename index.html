@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Goutam Chandra Gharami - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
+        <div class="container">
+            <img src="https://img.icons8.com/ios-filled/50/ffffff/user.png" alt="Logo" />
         <h1>Goutam Chandra Gharami</h1>
         <nav>
             <ul>
@@ -15,44 +18,83 @@
                 <li><a href="about.html"><img src="https://img.icons8.com/ios-filled/30/ffffff/user.png" alt="About" />About</a></li>
                 <li><a href="contact.html"><img src="https://img.icons8.com/?size=30&id=2817&format=png&color=ffffff" alt="Contact" style="padding:10px"/>Contact</a></li>
                 <li><a href="https://linkedin.com/in/goutamdev0"><img src="https://img.icons8.com/ios-filled/30/ffffff/linkedin.png" alt="LinkedIn" style="padding:10px" />LinkedIn</a></li>
-                <li><a href="https://twitter.com/goutamdev0"><img src="https://img.icons8.com/ios-filled/30/ffffff/twitter.png" alt="Twitter" style="padding:10px" />Twitter</a></li>
+                <li><a href="https://x.com/goutamdev0"><img src="https://img.icons8.com/ios-filled/30/ffffff/twitter.png" alt="Twitter" style="padding:10px" />Twitter</a></li>
                 <li><a href="https://github.com/goutamdev"><img src="https://img.icons8.com/ios-filled/30/ffffff/github.png" alt="GitHub" style="padding:10px" />GitHub</a></li>
             </ul>
         </nav>
     </header>
-    
+    </div>
     <main>
-        <section id="hero">
-            <h2>Welcome to My Portfolio</h2>
-            <p>I am a Python and JavaScript developer with expertise in programming, IoT, Automation, and development.</p>
-            <a href="contact.html" class="btn">Get in Touch</a>
-            <img src="https://images.unsplash.com/photo-1558522195-e1201b090344?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Coding" class="hero-img" />
-        </section>
+       <!-- Hero Section -->
+<section id="hero" class="container-fluid bg-primary text-light py-5 mb-5">
+    <h2 class="text-center">Welcome to My Portfolio</h2>
+    <p class="text-center">I am a Python and JavaScript developer with expertise in programming, IoT, Automation, and development.</p>
+    <div class="text-center">
+        <a href="contact.html" class="btn btn-light">Get in Touch</a>
+    </div>
+    <div class="text-center mt-4">
+        <img src="https://images.unsplash.com/photo-1558522195-e1201b090344?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Coding" class="hero-img img-fluid" />
+    </div>
+</section>
 
-        <section id="services">
-            <h2>Services</h2>
-            <div class="service">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Logo" class="service-logo">
-                <h3>Python Development</h3>
-                <p>With Python's versatility, I create applications for web development, data analysis, machine learning, and automation. Python's simplicity and extensive libraries enable rapid development and deployment, making it an ideal choice for a variety of projects.</p>
+<!-- Cards Section -->
+<section class="container py-5">
+    <h2 class="text-center mb-4">Services</h2>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <!-- Card 1 -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="./img/mern.jpg" class="card-img-top img-fluid" alt="MERN Developer" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">MERN Fullstack Developer</h5>
+                    <p class="card-text">As a MERN stack developer, I specialize in creating scalable and user-friendly web applications using MongoDB, Express.js, React.js, and Node.js. I focus on crafting seamless experiences and efficient back-end functionality.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
             </div>
-            <div class="service">
-                <img src="https://nodejs.org/static/images/logo.svg" alt="Node.js Logo" class="service-logo">
-                <h3>JavaScript Development</h3>
-                <p>JavaScript is essential for modern web development. With Node.js, I build fast and scalable network applications, handle real-time data processing, and create server-side applications. JavaScript's ability to create interactive web interfaces makes it indispensable for frontend development.</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="./img/data.jpg" class="card-img-top img-fluid" alt="Data Analysis" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Data Analysis and Visualization</h5>
+                    <p class="card-text">With tools like Python, Pandas, and Matplotlib, I analyze and visualize data to deliver actionable insights and interactive reports that simplify complex datasets.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
             </div>
-            <div class="service">
-                <img src="https://images.unsplash.com/photo-1649006708938-cf885c646df6?q=80&w=1461&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="IoT Solutions" class="service-logo">
-                <h3>IoT Solutions</h3>
-                <p>IoT (Internet of Things) enables connectivity between devices for seamless data exchange. I develop IoT applications that collect, analyze, and visualize data from connected devices, enhancing automation and operational efficiency in various industries.</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="./img/ai.png" class="card-img-top img-fluid" alt="Machine Learning and AI" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Machine Learning and AI</h5>
+                    <p class="card-text">By utilizing frameworks like TensorFlow and Scikit-learn, I design predictive models and intelligent systems to solve real-world challenges efficiently.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
             </div>
-        </section>
+        </div>
+        <!-- Card 4 -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="./img/iot.jpg" class="card-img-top img-fluid" alt="IoT Solutions" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">IoT Solutions</h5>
+                    <p class="card-text">From connectivity to automation, I create IoT applications that collect, analyze, and visualize data to enhance operational efficiency and innovation across industries.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+          
+          
     </main>
 
     <footer>
         <p>&copy; 2024 Goutam Chandra Gharami</p>
     </footer>
-
-    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 </html>
