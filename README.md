@@ -49,9 +49,6 @@ I am a dedicated developer with expertise spanning both hardware and software do
 
 I welcome contributions to my open-source projects! Feel free to fork, raise issues, or submit pull requests. Please ensure that your contributions adhere to the guidelines specified in the respective `CONTRIBUTING.md` file.
 
-## License
-
-This repository is licensed under the [License Name] *(Link to the license)*
 
 ## Additional Information
 
