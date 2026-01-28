@@ -2,6 +2,7 @@
 
 **BSc in Electrical & Electronics Engineering | GSTU
 Major: Electronics and Communication Engineering**
+
 My undergraduate journey at GSTU was centered on the fundamentals of how the world connects. Specializing in Electronics and Communication, I developed a deep-rooted understanding of signal transmission and hardware architecture. This period was pivotal in shaping my engineering mindset, teaching me to approach complex problems with the precision required for circuit design and telecommunication systems.
 
 **MSc in Electrical & Electronics Engineering | University of Dhaka
