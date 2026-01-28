@@ -42,7 +42,7 @@ I am a dedicated developer with expertise spanning both hardware and software do
 ## Let’s Connect!
 
 - **Email:** [dev.goutam05@gmail.com](mailto:dev.goutam05@gmail.com)
-- **LinkedIn:** [https://www.linkedin.com/in/goutamdev0](https://www.linkedin.com/in/goutamdev0)
+- **LinkedIn:** [https://www.linkedin.com/in/goutamdevs](https://www.linkedin.com/in/goutamdevs)
 - **Kaggle:** [https://www.kaggle.com/goutamch05](https://www.kaggle.com/goutamch05)
 
 ## Contributing
