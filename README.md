@@ -1,9 +1,13 @@
 # Goutam Chandra Gharami (@goutamdev)
 
-**BSc in Electrical & Electronics Engineering (EEE) | GSTU**
+**BSc in Electrical & Electronics Engineering | GSTU
+Major: Electronics and Communication Engineering**
+My undergraduate journey at GSTU was centered on the fundamentals of how the world connects. Specializing in Electronics and Communication, I developed a deep-rooted understanding of signal transmission and hardware architecture. This period was pivotal in shaping my engineering mindset, teaching me to approach complex problems with the precision required for circuit design and telecommunication systems.
 
-I am a dedicated developer with expertise spanning both hardware and software domains. My focus is on leveraging technology to craft efficient and scalable solutions.
+**MSc in Electrical & Electronics Engineering | University of Dhaka
+Major: Communication and Signal Processing (Ongoing)**
 
+Currently, at the University of Dhaka, I am bridging the gap between physical signals and digital intelligence. My research in Communication and Signal Processing (CSP) serves as the perfect mathematical backbone for my work in Machine Learning. By combining this analytical depth with MERN Stack development, I am evolving into a versatile engineer capable of building high-performance applications in JavaScript and architecting intelligent data models in Python.
 ## Key Areas of Expertise
 
 - **Programming Languages:** Python, JavaScript, Java, Bash
