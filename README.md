@@ -4,10 +4,10 @@
 > *Researching Underwater Image Enhancement using Diffusion Transformers (DiT) at the University of Dhaka*
 
 <p align="center">
-  <a href="https://github.com/goutamdevs"><img src="https://img.shields.io/badge/GitHub-goutamdevs-181717?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/goutamdev"><img src="https://img.shields.io/badge/GitHub-goutamdev-181717?style=for-the-badge&logo=github" /></a>
   <a href="https://linkedin.com/in/goutamdevs"><img src="https://img.shields.io/badge/LinkedIn-goutamdevs-0A66C2?style=for-the-badge&logo=linkedin" /></a>
-  <a href="https://x.com/goutamdevs"><img src="https://img.shields.io/badge/X%20(Twitter)-goutamdevs-000000?style=for-the-badge&logo=x" /></a>
-  <a href="https://instagram.com/goutamdevs"><img src="https://img.shields.io/badge/Instagram-goutamdevs-E4405F?style=for-the-badge&logo=instagram" /></a>
+  <a href="https://x.com/goutamdevs_io"><img src="https://img.shields.io/badge/X%20(Twitter)-goutamdevs__io-000000?style=for-the-badge&logo=x" /></a>
+  <a href="https://instagram.com/goutam.devs"><img src="https://img.shields.io/badge/Instagram-goutam.devs-E4405F?style=for-the-badge&logo=instagram" /></a>
   <a href="https://youtube.com/@goutamdevs"><img src="https://img.shields.io/badge/YouTube-goutamdevs-FF0000?style=for-the-badge&logo=youtube" /></a>
 </p>
 
@@ -49,8 +49,8 @@ I envision a future where:
 
 | | |
 |---|---|
-| 🎓 **M.Sc. EEE (CSP)** | University of Dhaka *(2024 – Present)* |
-| 🏛️ **B.Sc. EEE** | Gopalganj Science & Technology University / GSTU *(2019 – 2023)* |
+| 🎓 **M.Sc. EEE (CSP)** | University of Dhaka *(2025 – Ongoing)* |
+| 🏛️ **B.Sc. EEE** | Gopalganj Science & Technology University / GSTU *(2017 – 2022)* |
 
 My EEE background gives me strong foundations in signal processing, electronics, and systems engineering — skills I now apply to AI model design, signal-based deep learning, and Edge AI deployment.
 
@@ -127,15 +127,6 @@ Languages:   Python (primary) · C/C++ · JavaScript · MATLAB
 
 ---
 
-## 🚀 Run Locally
-
-```bash
-git clone https://github.com/goutamdevs/goutamdevs.github.io.git
-cd goutamdevs.github.io
-npm install
-node server.js
-# Open http://localhost:5000
-```
 
 ---
 
@@ -144,10 +135,10 @@ node server.js
 | | Handle |
 |---|---|
 | 📧 Email | dev.goutam05@gmail.com |
-| 🐙 GitHub | [@goutamdevs](https://github.com/goutamdevs) |
+| 🐙 GitHub | [@goutamdev](https://github.com/goutamdev) |
 | 💼 LinkedIn | [@goutamdevs](https://linkedin.com/in/goutamdevs) |
-| 𝕏 Twitter/X | [@goutamdevs](https://x.com/goutamdevs) |
-| 📷 Instagram | [@goutamdevs](https://instagram.com/goutamdevs) |
+| 𝕏 Twitter/X | [@goutamdevs_io](https://x.com/goutamdevs_io) |
+| 📷 Instagram | [@goutam.devs](https://instagram.com/goutam.devs) |
 | ▶️ YouTube | [@goutamdevs](https://youtube.com/@goutamdevs) |
 
 ---
